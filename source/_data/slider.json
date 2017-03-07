@@ -1,0 +1,19 @@
+[{
+    "image": "./images/shan.jpg",
+    "align": "center",
+    "title": "This is our big Tagline!",
+    "subtitle": "Here's our small slogan.",
+	"link": "/"
+}, {
+    "image": "./images/qing.jpg",
+    "align": "left",
+    "title": "Left Aligned Caption",
+    "subtitle": "Here's our small slogan.",
+	"link": null
+}, {
+    "image": "http://www.dujin.org/sys/bing/1920.php",
+    "align": "right",
+    "title": "Right Aligned Caption",
+    "subtitle": "Here's our small slogan.",
+	"link": null
+}]
