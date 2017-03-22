@@ -1,3 +1,5 @@
+ #!/bin/bash
+ 
 cd lighklife
 hexo clean
 hexo g
