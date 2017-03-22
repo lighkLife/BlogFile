@@ -6,7 +6,7 @@ tags: 工具
 ---
 
 {% cq %}
-1. 使用hexo进行写作，一直困扰于图片问题，不想用图床，今天尝试图片前缀使用｀http://username.github.io｀解决了使用本地图片的问题。
+1. 使用hexo进行写作，一直困扰于图片问题，不想用图床，今天尝试图片前缀使用http://username.github.io解决了使用本地图片的问题。
 2. 写作的过程难免需要多台机器同时期写作，于是在github新建了一个项目专门用来存管hexo写作的工作空间，解决来多机器写作问题。
 {% endcq %}
 
@@ -26,7 +26,7 @@ post_asset_folder: true
 ![Java异常层次结构](http://lighklife.github.io/img/2016/Throwable.png)
 ```
 这样就可以展示在我的博客中:
-![hexo中使用本地图片效果](http://lighklife.github.io/img/2017/heox_use_image_example.png)
+![hexo中使用本地图片效果](http://lighklife.github.io/img/2017/hexo_use_image_example.png)
 
 ## 2.多台机器写作
 1. 在github新建项目blog，然后clone到本地.
