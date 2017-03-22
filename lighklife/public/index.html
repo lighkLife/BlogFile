@@ -1,180 +1,2427 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
+<!doctype html>
+
+
+
   
 
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="做一个，特别的，人">
+<meta property="og:type" content="website">
+<meta property="og:title" content="lighkLife Blog">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="lighkLife Blog">
+<meta property="og:description" content="做一个，特别的，人">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="lighkLife Blog">
+<meta name="twitter:description" content="做一个，特别的，人">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"right","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title> lighkLife Blog </title>
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-92344145-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?e6d85b65595bd4bec35070a1a5883497";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">lighkLife Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/03/22/hello-world/" class="article-date">
-  <time datetime="2017-03-22T14:24:37.440Z" itemprop="datePublished">2017-03-22</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/22/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
+        <p class="site-subtitle">Code Dream</p>
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
 
       
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/22/hello-world/" data-id="cj0l2dzgc0000hgmzd1z3uofq" class="article-share-link">Share</a>
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
       
+    </ul>
+  
+
+  
+    <div class="site-search">
       
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li></ul>
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
     </div>
   </div>
+  <div id="local-search-result"></div>
+</div>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/03/22/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
 
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
   
 </nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/03/13/2017/秘钥与随机数/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/03/13/2017/秘钥与随机数/" itemprop="url">
+                  秘钥与随机数
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-13T22:33:26+08:00">
+                2017-03-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/信息安全/" itemprop="url" rel="index">
+                    <span itemprop="name">信息安全</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/03/13/2017/秘钥与随机数/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/13/2017/秘钥与随机数/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="1-秘钥"><a href="#1-秘钥" class="headerlink" title="1.秘钥"></a>1.秘钥</h2><ol>
+<li><p>Diffie-Hellman 解决秘钥配送问题<br><img src="../img/2017/Diffie-Hellman.png" alt="Diffie-Hellman 秘钥交换"></p>
+</li>
+<li><p>PEB　加密解密</p>
+</li>
+</ol>
+<p><img src="../img/2017/peb加密.png" alt="PEB 加密"><br><img src="../img/2017/peb解密.png" alt="PEB 加密"></p>
+<h2 id="2-随机数"><a href="#2-随机数" class="headerlink" title="2.随机数"></a>2.随机数</h2><h3 id="2-1-随机数的性质"><a href="#2-1-随机数的性质" class="headerlink" title="2.1 随机数的性质"></a>2.1 随机数的性质</h3><p><img src="../img/2017/随机数的性质.png" alt="随机数的性质"></p>
+<h2 id="2-2-随机数的生产方法"><a href="#2-2-随机数的生产方法" class="headerlink" title="2.2 随机数的生产方法"></a>2.2 随机数的生产方法</h2><p><strong>线性同余</strong></p>
+<p><img src="../img/2017/线性同余.png" alt="线性同余"></p>
+<p><strong>单向散列函数</strong></p>
+<p><img src="../img/2017/单向散列函数.png" alt="单向散列函数"></p>
+<p><strong>密码法</strong></p>
+<p><img src="../img/2017/密码法.png" alt="密码法"></p>
+<p><strong>ANSI X9.17</strong></p>
+<p><img src="../img/2017/ANSI x9.17.png" alt="ANSI x9.17"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
 
 
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
 
 
-<script src="/js/script.js"></script>
+    
+      
 
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/03/13/2017/密码技术的优美应用/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/03/13/2017/密码技术的优美应用/" itemprop="url">
+                  密码技术的优美应用
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-13T22:33:26+08:00">
+                2017-03-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/信息安全/" itemprop="url" rel="index">
+                    <span itemprop="name">信息安全</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/03/13/2017/密码技术的优美应用/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/13/2017/密码技术的优美应用/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="1-PGP-加密软件"><a href="#1-PGP-加密软件" class="headerlink" title="1. PGP 加密软件"></a>1. PGP 加密软件</h2><p>PGP 是　pretty Good Privacy.<br><strong>PGP加密生成数字签名并认证</strong></p>
+<p><img src="../img/2017/PGP加密生成数字签名并认证.png" alt="PGP加密生成数字签名并认证"></p>
+<p><strong>PGP解密并验证数字签名并认证</strong></p>
+<p><img src="../img/2017/PGP解密并验证数字签名并认证.PNG" alt="PGP解密并验证数字签名并认证"></p>
+<p><strong>PGB中数据的整合分离</strong></p>
+<p><img src="../img/2017/PGB中数据的整合分离.PNG" alt="PGB中数据的整合分离"></p>
+<h2 id="2-SSL-TLS"><a href="#2-SSL-TLS" class="headerlink" title="2.SSL/TLS"></a>2.SSL/TLS</h2><p>TLS是SSL的后续版本。</p>
+<h3 id="2-1-HTTPS-是在TLS-SSL-上承载HTTP"><a href="#2-1-HTTPS-是在TLS-SSL-上承载HTTP" class="headerlink" title="2.1 HTTPS 是在TLS/SSL 上承载HTTP."></a>2.1 HTTPS 是在TLS/SSL 上承载HTTP.</h3><p><img src="../img/2017/HTTPS.png" alt="HTTPS"></p>
+<p><strong>HTTPS作用</strong></p>
+<ol>
+<li>通信过程不能被监听。（数据被混合密码系统加密，保证机密性）</li>
+<li>通信过程不能被篡改。（保证完整性）</li>
+<li>确认是在真正的通信对象。（认证）</li>
+</ol>
+<h3 id="2-2-TLS-SSL-保护其他协议"><a href="#2-2-TLS-SSL-保护其他协议" class="headerlink" title="2.2 TLS/SSL　保护其他协议"></a>2.2 TLS/SSL　保护其他协议</h3><p><img src="../img/2017/SSL-TLS保护其他协议.png" alt="TLS/SSL　保护其他协议"></p>
+<h3 id="2-3-TLS的层次结构"><a href="#2-3-TLS的层次结构" class="headerlink" title="2.3 TLS的层次结构"></a>2.3 TLS的层次结构</h3><p><img src="../img/2017/TLS层次结构.png" alt="TLS的层次结构"></p>
+<p><strong>TLS 握手协议</strong><br>握手协议分为：握手协议，密码规格变更协议，警告协议和应用数据协议。<br>握手协议负责客户端与服务器端协商决定密码算法和共享秘钥。</p>
+<p><img src="../img/2017/STL握手.jpg" alt="TLS记录协议的处理过程"></p>
+<p><strong>记录协议负责消息的“压缩”，“加密”，“数据认证”。</strong><br><img src="../img/2017/TLS记录协议的处理过程.png" alt="TLS记录协议的处理过程"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/03/13/2017/密码技术总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/03/13/2017/密码技术总结/" itemprop="url">
+                  密码技术总结
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-13T22:33:26+08:00">
+                2017-03-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/信息安全/" itemprop="url" rel="index">
+                    <span itemprop="name">信息安全</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/03/13/2017/密码技术总结/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/13/2017/密码技术总结/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="1-各个密码技术解决的问题与联系"><a href="#1-各个密码技术解决的问题与联系" class="headerlink" title="1. 各个密码技术解决的问题与联系"></a>1. 各个密码技术解决的问题与联系</h2><p><img src="../img/2017/密码学家的工具箱.png" alt="密码学家的工具箱"></p>
+<h2 id="2-密码技术就是一直“压缩”技术"><a href="#2-密码技术就是一直“压缩”技术" class="headerlink" title="2. 密码技术就是一直“压缩”技术"></a>2. 密码技术就是一直“压缩”技术</h2><p><img src="../img/2017/密码技术就是“压缩”.png" alt="密码技术就是“压缩”"></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/03/13/2017/单向散列函数，消息认证码，数字签名，证书/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/03/13/2017/单向散列函数，消息认证码，数字签名，证书/" itemprop="url">
+                  单向散列函数，消息认证码，数字签名，证书
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-13T22:33:26+08:00">
+                2017-03-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/信息安全/" itemprop="url" rel="index">
+                    <span itemprop="name">信息安全</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/03/13/2017/单向散列函数，消息认证码，数字签名，证书/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/13/2017/单向散列函数，消息认证码，数字签名，证书/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="单向散列函数，消息认证码，数字签名，证书"><a href="#单向散列函数，消息认证码，数字签名，证书" class="headerlink" title="单向散列函数，消息认证码，数字签名，证书"></a>单向散列函数，消息认证码，数字签名，证书</h1><h2 id="1-单向散列函数"><a href="#1-单向散列函数" class="headerlink" title="1.单向散列函数"></a>1.单向散列函数</h2><h2 id="1-１-什么是单项散列函数？"><a href="#1-１-什么是单项散列函数？" class="headerlink" title="1.１ 什么是单项散列函数？"></a>1.１ 什么是单项散列函数？</h2><p>网络下载软件，或者传输文件，如何验证没有被第三方篡改呢？</p>
+<p>即是数据的的<strong>完整性</strong>（intergrity），也称<strong>一致性</strong>。</p>
+<p>单项散列函数就是生成文件“指纹”的方法。</p>
+<p><strong>单项散列函数</strong></p>
+<p> <img src="../img/2017/单向散列函数.png" alt="单向散列函数"></p>
+<ul>
+<li>散列值是固定长度</li>
+</ul>
+<p>单项散列函数也称为消息摘要函数(<code>message digest function</code>)，哈希函数，杂凑函数。</p>
+<h2 id="１-2单项散列函数的性质"><a href="#１-2单项散列函数的性质" class="headerlink" title="１.2单项散列函数的性质"></a>１.2单项散列函数的性质</h2><ol>
+<li>根据任意长度的消息计算出固定长度的散列值。</li>
+<li>能快速计算出散列值。</li>
+<li>消息不同，散列值也不同。</li>
+<li>具备单项性。</li>
+</ol>
+<h4 id="弱靠碰撞性"><a href="#弱靠碰撞性" class="headerlink" title="弱靠碰撞性"></a>弱靠碰撞性</h4><p>单向散列函数都必须确保要找到和<strong>该条消息</strong>具有相同散列值的另外一条消息是非常困难的。</p>
+<h4 id="强抗碰撞性"><a href="#强抗碰撞性" class="headerlink" title="强抗碰撞性"></a>强抗碰撞性</h4><p>找到散列值相同的任意两条不同消息是非常困难的。这里散列值可以是任意的。</p>
+<h3 id="1-3-单项散列函数实际应用"><a href="#1-3-单项散列函数实际应用" class="headerlink" title="1.3 单项散列函数实际应用"></a>1.3 单项散列函数实际应用</h3><h4 id="1-3-1-检测软件是否被篡改"><a href="#1-3-1-检测软件是否被篡改" class="headerlink" title="1.3.1 检测软件是否被篡改"></a>1.3.1 检测软件是否被篡改</h4><h4 id="1-3-2-基于口令的加密"><a href="#1-3-2-基于口令的加密" class="headerlink" title="1.3.2 基于口令的加密"></a>1.3.2 基于口令的加密</h4><p>寄予口令的加密是将口令和盐(salt，通过伪随机数生成器产生的随机值)混合后计算其散列值，然后将这个散列值作为加密的密钥。</p>
+<h4 id="1-3-3-消息认证码"><a href="#1-3-3-消息认证码" class="headerlink" title="1.3.3 消息认证码"></a>1.3.3 消息认证码</h4><p>消息认证码是将“发生者和接受者之间共享的密钥” 和 “消息” 进行混合后计算的散列值。使用消息认证码可以检测并防止通信过程中的错误，并进行认证。</p>
+<h2 id="2-消息认证码——消息被正确传送了吗？"><a href="#2-消息认证码——消息被正确传送了吗？" class="headerlink" title="2. 消息认证码——消息被正确传送了吗？"></a>2. 消息认证码——消息被正确传送了吗？</h2><h3 id="2-1-消息认证码（Message-Authentication-Code）-是一种与密钥相关联的单项散列函数。"><a href="#2-1-消息认证码（Message-Authentication-Code）-是一种与密钥相关联的单项散列函数。" class="headerlink" title="2.1 消息认证码（Message Authentication Code） 是一种与密钥相关联的单项散列函数。"></a>2.1 <strong>消息认证码</strong>（Message Authentication Code） 是一种与密钥相关联的单项散列函数。</h3><p> <img src="../img/2017/hash与MAC.jpg" alt="hash与MAC"></p>
+<ul>
+<li>要计算MAC值必须持有共享密钥，MAC正是利用这一性质确认完整性的。</li>
+</ul>
+<ul>
+<li>只有通信双方才能持有共享密钥，密钥配送问题可以使用公钥密码，Diffie-Hellman密钥交换，密钥分配中心等来解决。</li>
+</ul>
+<h3 id="2-2-消息认证码实现方式"><a href="#2-2-消息认证码实现方式" class="headerlink" title="2.2 消息认证码实现方式"></a>2.2 消息认证码实现方式</h3><h4 id="使用分组密码实现"><a href="#使用分组密码实现" class="headerlink" title="使用分组密码实现"></a>使用分组密码实现</h4><p><img src="../img/2017/CBC生成MAC.PNG" alt="CBC生成MAC"></p>
+<p>舍弃最后一个分组之前的所有密文，最后一组作为MAC即可。</p>
+<h4 id="使用SHA-2-单向散列函数实现的-HMAC"><a href="#使用SHA-2-单向散列函数实现的-HMAC" class="headerlink" title="使用SHA-2 单向散列函数实现的 HMAC"></a>使用SHA-2 单向散列函数实现的 HMAC</h4><p><img src="D:\Desktop\img\2017\sha2-to-MAC.PNG" alt="sha2-to-MAC"></p>
+<h3 id="2-3-消息认证MAC解决的问题"><a href="#2-3-消息认证MAC解决的问题" class="headerlink" title="2.3 消息认证MAC解决的问题"></a>2.3 消息认证MAC解决的问题</h3><p> 消息认证码解决了完整性与伪装问题，仍然无法解决“对第三方证明”和“防否认”问题。这就需要数字签名来解决。</p>
+<h2 id="3-数字签名——消息到底是谁写的"><a href="#3-数字签名——消息到底是谁写的" class="headerlink" title="3　数字签名——消息到底是谁写的"></a>3　数字签名——消息到底是谁写的</h2><h3 id="3-1-签名概述"><a href="#3-1-签名概述" class="headerlink" title="3.1 签名概述"></a>3.1 签名概述</h3><p> 设想要防否认，只要签名只能由消息发送者生产就OK了。</p>
+<p> 数字签名对签名者的秘钥和验证者的秘钥进行了区分，使用验证签名无法生产签名。签名秘钥只由签名者持有。</p>
+<p> 这和公钥密码有点相似了。事实上，签名就是公钥密码“反过来”实现的。<br> 对于消息签名，速度太慢，因为每个消息的散列值是不一样的，所以一般只需要对消息的散列值进行签名就可以了。</p>
+<h3 id="3-2-签名实例"><a href="#3-2-签名实例" class="headerlink" title="3.2 签名实例"></a>3.2 签名实例</h3><ol>
+<li>信息安全公告。</li>
+<li>软件下载。</li>
+<li>公钥证书。(得到合法的公钥)</li>
+<li>SSL/TLS。</li>
+</ol>
+<h3 id="3-3-签名解决的问题"><a href="#3-3-签名解决的问题" class="headerlink" title="3.3 签名解决的问题"></a>3.3 签名解决的问题</h3><p> 通过对散列值签名我们可以解决完整性，篡改，伪造问题，但是用于验证签名的公钥是否是真正的发送者的呢？中间人可以用自己的私钥签名，并把自己的公钥发送给接受者。<br> 为验证公钥是否合法，我们需要使用证书。</p>
+<h2 id="3-证书——公钥合法了"><a href="#3-证书——公钥合法了" class="headerlink" title="3. 证书——公钥合法了"></a>3. 证书——公钥合法了</h2><p> 证书就是我们信任的第三方对发送者的公钥加上了他们的数字签名。相当于身份证一样的东西。这里的第三方包括例如赛门铁客等机构，也可以是自己组织内部成立的一个机构。<br> 证书主要包含：</p>
+<ol>
+<li>证书序号。</li>
+<li>证书颁发机构。</li>
+<li>公钥所有者。</li>
+<li>SHA-1 指纹。</li>
+<li>MD５指纹。</li>
+<li>证书ID。</li>
+<li>有效期起始时间。</li>
+<li>有效期结束时间。</li>
+<li>散列算法。</li>
+<li>秘钥ID。</li>
+<li>秘钥用途。</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/03/07/2017/ubuntu休眠后无法链接wifi/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/03/07/2017/ubuntu休眠后无法链接wifi/" itemprop="url">
+                  Ubuntu 休眠后无法链接Wifi
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-07T00:33:03+08:00">
+                2017-03-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/OS/" itemprop="url" rel="index">
+                    <span itemprop="name">OS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/03/07/2017/ubuntu休眠后无法链接wifi/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/07/2017/ubuntu休眠后无法链接wifi/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          ubuntu 16.04 update 后发现只有一休眠，唤醒后就无法链接自动链接到网络，在官放论坛找到解决方式。
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="2017/03/07/2017/ubuntu休眠后无法链接wifi/">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/02/16/2017/Spring综述/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/02/16/2017/Spring综述/" itemprop="url">
+                  Spring 综述
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-16T23:26:03+08:00">
+                2017-02-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/JavaEE/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaEE</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/02/16/2017/Spring综述/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/16/2017/Spring综述/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="1-Spring的根本使命是什么？"><a href="#1-Spring的根本使命是什么？" class="headerlink" title="1. Spring的根本使命是什么？"></a>1. Spring的根本使命是什么？</h3><p><strong> 简化Java开发</strong></p>
+<h3 id="2-Spring-怎么就简化了Java开发呢？"><a href="#2-Spring-怎么就简化了Java开发呢？" class="headerlink" title="2. Spring 怎么就简化了Java开发呢？"></a>2. Spring 怎么就简化了Java开发呢？</h3><p>Spring采取了四种策略：</p>
+<ul>
+<li>基于POPJ 的轻量级和最小侵入性编程；</li>
+<li>通过依赖注入和面向接口编程实现松耦合；</li>
+<li>基于切面和惯例进行声明式编程；</li>
+<li>通过切面和模板减少样板式代码。</li>
+</ul>
+<h3 id="3-依赖注入"><a href="#3-依赖注入" class="headerlink" title="3. 依赖注入"></a>3. 依赖注入</h3><p>依赖注入是组装应用对象的一种方式，对象无需知道依赖来自何方或者依赖的实现方式。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/01/19/2017/密码技术初识/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/01/19/2017/密码技术初识/" itemprop="url">
+                  密码技术初识
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-19T22:26:03+08:00">
+                2017-01-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/信息安全/" itemprop="url" rel="index">
+                    <span itemprop="name">信息安全</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/01/19/2017/密码技术初识/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/19/2017/密码技术初识/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>本书版权属于出版社和作者所有。除非另有声明，没有书面许可任何人不得转载或使用整体或任何部分的内容。此文章只作为个人读书笔记使用。</p>
+</blockquote>
+<h2 id="1-密码概述"><a href="#1-密码概述" class="headerlink" title="1. 密码概述"></a>1. 密码概述</h2><h3 id="1-1-通信过程中会有哪些主要角色"><a href="#1-1-通信过程中会有哪些主要角色" class="headerlink" title="1.1 通信过程中会有哪些主要角色?"></a>1.1 通信过程中会有哪些主要角色?</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">名称</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Alice</td>
+<td style="text-align:center">一般角色</td>
+</tr>
+<tr>
+<td style="text-align:center">Bob</td>
+<td style="text-align:center">一般角色</td>
+</tr>
+<tr>
+<td style="text-align:center">Eve</td>
+<td style="text-align:center">窃听者，可窃听通信内容</td>
+</tr>
+<tr>
+<td style="text-align:center">Mallory</td>
+<td style="text-align:center">主动攻击者，可妨碍通信、伪造消息</td>
+</tr>
+<tr>
+<td style="text-align:center">Trent</td>
+<td style="text-align:center">可信的第三方</td>
+</tr>
+<tr>
+<td style="text-align:center">Victor</td>
+<td style="text-align:center">验证者</td>
+</tr>
+</tbody>
+</table>
+<h3 id="1-2-信息安全中所面临的威胁与应对这些威胁的密码技术有什么？"><a href="#1-2-信息安全中所面临的威胁与应对这些威胁的密码技术有什么？" class="headerlink" title="1.2  信息安全中所面临的威胁与应对这些威胁的密码技术有什么？"></a>1.2  信息安全中所面临的威胁与应对这些威胁的密码技术有什么？</h3><p><img src="http://upload-images.jianshu.io/upload_images/3983351-8d2fdbb24abe90be.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1.jpg"></p>
+<h3 id="1-3-其他知识"><a href="#1-3-其他知识" class="headerlink" title="1.3 其他知识"></a>1.3 其他知识</h3><blockquote>
+<p>我们先准备一段话，</p>
+<p>很容易看懂就可以，</p>
+<p>喜闻乐见的当然更好。</p>
+<p>欢迎你尝试将一句话嵌入在这段话中，</p>
+<p>你会发现这是一种隐写术。</p>
+</blockquote>
+<p>上面的消息影藏方式是<strong>隐写术</strong>，隐藏消息本身（而密码技术隐藏的是消息内容）。</p>
+<p>数字水印技术就利用了隐写术（一种把著作权拥有者及购买者的信息嵌入文件的技术）。</p>
+<h6 id="一些信息安全常识："><a href="#一些信息安全常识：" class="headerlink" title="一些信息安全常识："></a>一些信息安全常识：</h6><ul>
+<li>不要使用保密的密码算法。（开发高强度密码算法极其困难，自己的密码算法一旦暴露很容易被破解）</li>
+<li>使用低强度的密码比不使用任何密码更危险。（麻痹大意）</li>
+<li>任何密码总有一天都会被破解。（一次性密码本除外）</li>
+<li>密码是指信息安全的一部分。（最脆弱的环节往往是人类自己——社会工程学）</li>
+</ul>
+<h2 id="2-历史上的密码"><a href="#2-历史上的密码" class="headerlink" title="2. 历史上的密码"></a>2. 历史上的密码</h2><h3 id="2-1凯撒密码（字母代换）"><a href="#2-1凯撒密码（字母代换）" class="headerlink" title="2.1凯撒密码（字母代换）"></a>2.1凯撒密码（字母代换）</h3><p><img src="../img/2017/凯撒密码.jpg" alt="凯撒密码.jpg"></p>
+<p>将一个字母表向指定方向平移N位，解密反之，N为密钥 。</p>
+<blockquote>
+<p>密钥只可能是0-25共26个，用1-25每个数作为密钥尝试解密，很容易发现明文，从而得出密钥是几。（暴力破解）</p>
+</blockquote>
+<h3 id="2-2简单替换密码"><a href="#2-2简单替换密码" class="headerlink" title="2.2简单替换密码"></a>2.2简单替换密码</h3><p><img src="../img/2017/简单替换密码.jpg" alt="简单替换密码.jpg"></p>
+<p>两个字母表中字母之间随机一一对应， 密钥是替换表。</p>
+<blockquote>
+<p>密钥空间是 26！= 2^88。所以考虑使用（频率破解）。</p>
+</blockquote>
+<h2 id="3-对称密码"><a href="#3-对称密码" class="headerlink" title="3. 对称密码"></a>3. 对称密码</h2><ul>
+<li>DES（Data Encryption Standard）（不再推荐）</li>
+<li>AES（Advanced Encryption Standard） （应该使用）</li>
+</ul>
+<h2 id="4-公钥密码"><a href="#4-公钥密码" class="headerlink" title="4. 公钥密码"></a>4. 公钥密码</h2><h2 id="5-混合密码系统"><a href="#5-混合密码系统" class="headerlink" title="5. 混合密码系统"></a>5. 混合密码系统</h2>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/01/16/2017/Python带参数的装时器/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/01/16/2017/Python带参数的装时器/" itemprop="url">
+                  Python带参数的装时器
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-16T00:26:03+08:00">
+                2017-01-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Python</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/01/16/2017/Python带参数的装时器/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/16/2017/Python带参数的装时器/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>摘录整理于<a href="http://www.imooc.com/code/6066" target="_blank" rel="external">imooc</a></p>
+</blockquote>
+<h3 id="1-一个带参数的decorator例子"><a href="#1-一个带参数的decorator例子" class="headerlink" title="1. 一个带参数的decorator例子"></a>1. 一个带参数的<code>decorator</code>例子</h3><p>例子是根据 <code>@performance（&#39;time_type&#39;）</code>携带的时间类型来输出所装饰的函数<code>factorial</code>的执行时间。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> time</div><div class="line"><span class="keyword">import</span> functools</div><div class="line"><span class="keyword">from</span> past.builtins.noniterators <span class="keyword">import</span> reduce</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">performance</span><span class="params">(unit)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">perf_decorator</span><span class="params">(f)</span>:</span></div><div class="line">        <span class="comment"># @functools.wraps应该作用在返回的新函数上。</span></div><div class="line"><span class="meta">        @functools.wraps(f)</span></div><div class="line">        <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kw)</span>:</span></div><div class="line">            t1 = time.time()</div><div class="line">            r = f(*args, **kw)</div><div class="line">            t2 = time.time()</div><div class="line">            t = (t2 - t1) * <span class="number">1000</span> <span class="keyword">if</span> unit == <span class="string">'ms'</span> <span class="keyword">else</span> (t2 - t1)</div><div class="line">            print(<span class="string">'call %s() in %f %s'</span> % (f.__name__, t, unit))</div><div class="line">            <span class="keyword">return</span> r</div><div class="line">        <span class="keyword">return</span> wrapper</div><div class="line">    <span class="keyword">return</span> perf_decorator</div><div class="line"></div><div class="line"></div><div class="line"><span class="meta">@performance('ms')</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">factorial</span><span class="params">(n)</span>:</span></div><div class="line">    <span class="keyword">return</span> reduce(<span class="keyword">lambda</span> x, y: x * y, range(<span class="number">1</span>, n + <span class="number">1</span>))</div><div class="line"></div><div class="line">factorial(<span class="number">10000</span>)</div><div class="line">print(factorial.__name__)</div></pre></td></tr></table></figure></p>
+<h3 id="2-代参数的decorator为什么要包三层（三阶）？"><a href="#2-代参数的decorator为什么要包三层（三阶）？" class="headerlink" title="2.代参数的decorator为什么要包三层（三阶）？"></a>2.代参数的<code>decorator</code>为什么要包三层（三阶）？</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 为什么包三层（三阶）</span></div><div class="line"><span class="meta">@log('DEBUG')</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">my_func</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"><span class="comment"># 把上面的定义翻译成高阶函数的调用，就是：</span></div><div class="line"></div><div class="line">my_func = log(<span class="string">'DEBUG'</span>)(my_func)</div><div class="line"><span class="comment"># 上面的语句看上去还是比较绕，再展开一下：</span></div><div class="line"></div><div class="line">log_decorator = log(<span class="string">'DEBUG'</span>)</div><div class="line">my_func = log_decorator(my_func)</div><div class="line"><span class="comment"># 上面的语句又相当于：</span></div><div class="line"></div><div class="line">log_decorator = log(<span class="string">'DEBUG'</span>)</div><div class="line"><span class="meta">@log_decorator</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">my_func</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line"><span class="comment"># 所以，带参数的log函数首先返回一个decorator函数，再让这个decorator函数接收my_func并返回新函数：</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">log</span><span class="params">(prefix)</span>:</span></div><div class="line">    <span class="function"><span class="keyword">def</span> <span class="title">log_decorator</span><span class="params">(f)</span>:</span></div><div class="line">        <span class="function"><span class="keyword">def</span> <span class="title">wrapper</span><span class="params">(*args, **kw)</span>:</span></div><div class="line">            print(<span class="string">'[%s] %s()...'</span> % (prefix, f.__name__))</div><div class="line">            <span class="keyword">return</span> f(*args, **kw)</div><div class="line">        <span class="keyword">return</span> wrapper</div><div class="line">    <span class="keyword">return</span> log_decorator</div><div class="line"></div><div class="line"><span class="meta">@log('DEBUG')</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">test</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">pass</span></div><div class="line">print(test())</div></pre></td></tr></table></figure>
+<p>简而言之，最外层负责把<code>decorator</code>的参数<code>DEBUG</code>传进来，既然<code>decorator</code>携带的参数已经传进来，那么剩下的中间层和里层就是一个不带参的<code>decorator</code>的语法糖。反之而推，要多携带参数，肯定是需要多加一阶。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/01/03/2017/Linux安装中文字体/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/01/03/2017/Linux安装中文字体/" itemprop="url">
+                  Linux 安装中文字体
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T22:26:03+08:00">
+                2017-01-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/OS/" itemprop="url" rel="index">
+                    <span itemprop="name">OS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/01/03/2017/Linux安装中文字体/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/03/2017/Linux安装中文字体/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>两中方式可供选择</p>
+<h3 id="1-将新字体安装在JDK中"><a href="#1-将新字体安装在JDK中" class="headerlink" title="1.将新字体安装在JDK中"></a>1.将新字体安装在JDK中</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">cd $JAVA_HOME/jre/lib/fonts</div><div class="line">mkdir fallback</div><div class="line">cp xxx.ttf fallback #xxx.ttf代表你想要的中文字体文件</div><div class="line">cd fallback</div><div class="line">mkfontscale</div><div class="line">mkfontdir</div></pre></td></tr></table></figure>
+<p><em>有的机器需要安装mkfontscale</em></p>
+<blockquote>
+<p>重启项目，项目即可使用新加的中文字体</p>
+</blockquote>
+<h3 id="2-也可以选择在操作系统中安装新字体"><a href="#2-也可以选择在操作系统中安装新字体" class="headerlink" title="2.也可以选择在操作系统中安装新字体"></a>2.也可以选择在操作系统中安装新字体</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"># centos先安装fontconfig来安装字体库</div><div class="line">yum -y install fontconfig</div><div class="line"></div><div class="line">cd /usr/shared/fonts</div><div class="line">mkdir chinese</div><div class="line">cp xxx.ttf /usr/shared/fonts/chinese #xxx.ttf代表你想要的中文字体文件</div><div class="line">chmod -R 755 /usr/share/fonts/chinese</div><div class="line"># ttmkfdir来搜索目录中所有的字体信息，并汇总生成fonts.scale文件</div><div class="line">yum -y install ttmkfdir</div></pre></td></tr></table></figure>
+<figure class="highlight gauss"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta"># 修改系统字体配制文件，添加新建的字体文件夹</span></div><div class="line">vim /etc/<span class="built_in">fonts</span>/<span class="built_in">fonts</span>.conf</div></pre></td></tr></table></figure>
+<p><img src="http://lighklife.github.io/img/2016/修改系统配置文件.png" alt="修改系统字体配制文件.PNG"></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">fc</span>-cache</div><div class="line"><span class="built_in">fc</span>-list</div></pre></td></tr></table></figure>
+<p><img src="http://lighklife.github.io/img/2016/添加字体成功.png" alt="添加字体成功.PNG"></p>
+<blockquote>
+<p>重启项目，项目即可使用新加的中文字体</p>
+</blockquote>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com2017/01/03/2017/Machine Learning－Introduction/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="lighkLife">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lighkLife Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="2017/01/03/2017/Machine Learning－Introduction/" itemprop="url">
+                  Machine Learning－Introduction
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-03T19:26:03+08:00">
+                2017-01-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="categories/AI/" itemprop="url" rel="index">
+                    <span itemprop="name">AI</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="2017/01/03/2017/Machine Learning－Introduction/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/03/2017/Machine Learning－Introduction/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="1-What-is-Machine-Learning"><a href="#1-What-is-Machine-Learning" class="headerlink" title="1. What is Machine Learning?"></a>1. What is Machine Learning?</h3><ul>
+<li><p>Arthur Samuel described it as: “The field of study that gives computers the ability to learn without being explicitly programmed.”(older, informal definition)</p>
+</li>
+<li><p>Tom Mitchell: A computer program is said to learn from experience <strong>E</strong> with respect to some class to tasks <strong>T</strong> and performance measure <strong>P</strong>, if its performance at tasks in <strong>T</strong>, as measured by <strong>P</strong>, improve with experience <strong>E</strong>.</p>
+<blockquote>
+<p>In general, any machine learning problem can be assigned to one of two broad classifications: <strong>Supervised learning</strong> and <strong>Unsupervised learning.</strong></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="2-Supervised-learning"><a href="#2-Supervised-learning" class="headerlink" title="2. Supervised learning"></a>2. Supervised learning</h3><p>In supervised learning, we are given a data set and already know what our correct output should look like, having the idea that there is a relationship between the input and the output.</p>
+<p>Supervised learning problems are categorized into <strong>“regression”</strong> and <strong>“classification”</strong> problems.</p>
+<ul>
+<li>In a regression problem, we are trying to predict results within a continuous output, meaning that we are trying to map input variables to some continuous function.</li>
+<li>In a classification problem, we are instead trying to predict results in a discrete output. In other words, we are trying to map input variables into discrete categories.</li>
+</ul>
+<h3 id="3-Unsupervised-Learning"><a href="#3-Unsupervised-Learning" class="headerlink" title="3. Unsupervised Learning"></a>3. Unsupervised Learning</h3><p>Unsupervised learning allows us to approach problems with little or no idea what our results should look like. We can derive structure from data where we don’t necessarily know the effect of the variables.</p>
+<p>We can derive this structure by clustering the data based on relationships among the variables in the data.</p>
+<p>With unsupervised learning, there is no feedback based on the prediction results.</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="page/2/">2</a><a class="extend next" rel="next" href="page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+          
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
   </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="lighkLife" />
+          <p class="site-author-name" itemprop="name">lighkLife</p>
+           
+              <p class="site-description motion-element" itemprop="description">做一个，特别的，人</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">15</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="categories/index.html">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="tags/index.html">
+                <span class="site-state-item-count">14</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">lighkLife</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"lighk"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    
+    <script src="lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+  
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+  
+
+  
+
+  
+
+
+  
+
 </body>
 </html>
