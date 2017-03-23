@@ -1,9 +1,14 @@
 ---
 title: Spring 综述
-date: 2017-02-16 23:26:03
+date: 2017-01-19 00:26:03
 categories: JavaEE
 tags: [JavaEE, Spring]
 ---
+
+1. Spring的根本使命是什么？
+2. Spring 怎么就简化了Java开发呢？
+3. 依赖注入
+<!-- more -->
 
 ### 1. Spring的根本使命是什么？
 ** 简化Java开发**

@@ -2,10 +2,14 @@
 title: Python带参数的装时器
 date: 2017-01-16 00:26:03
 categories: Python
-tags: [Python, Programming Language]
+tags: Python
 ---
 
 > 摘录整理于[imooc]( http://www.imooc.com/code/6066)
+
+1. 一个带参数的`decorator`例子
+2. 代参数的`decorator`为什么要包三层（三阶）？
+<!-- more -->
 
 ### 1. 一个带参数的`decorator`例子
 例子是根据 `@performance（'time_type'）`携带的时间类型来输出所装饰的函数`factorial`的执行时间。

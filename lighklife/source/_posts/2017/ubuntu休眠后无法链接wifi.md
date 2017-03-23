@@ -1,10 +1,11 @@
 ---
 title: ubuntu 休眠后无法链接wifi
-date: 2017-03-07 00:33:03
-categories: OS
-tags: [OS, Linux]
+date: 2017-01-20 00:26:03
+categories: Linux
+tags: Linux
 description: ubuntu 16.04 update 后发现只有一休眠，唤醒后就无法链接自动链接到网络，在官放论坛找到解决方式。
 ---
+
 ### 1. 临时解决方式 ###
 如果不嫌麻烦可以在在不能连接网络的时候重启网络服务
 ```sh

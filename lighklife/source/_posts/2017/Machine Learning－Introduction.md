@@ -5,6 +5,12 @@ categories: AI
 tags: [AI, ML]
 ---
 
+1. What is Machine Learning?
+2. Supervised learning
+3. Unsupervised Learning
+
+<!--more-->
+
 ### 1. What is Machine Learning?
 * Arthur Samuel described it as: "The field of study that gives computers the ability to learn without being explicitly programmed."(older, informal definition)
 

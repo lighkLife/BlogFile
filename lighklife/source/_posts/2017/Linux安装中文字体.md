@@ -1,11 +1,13 @@
 ---
 title: Linux 安装中文字体
 date: 2017-01-03 22:26:03
-categories: OS
-tags: [OS, Linux]
+categories: Linux
+tags: Linux
 ---
 
-
+1. 将新字体安装在JDK中
+2. 也可以选择在操作系统中安装新字体
+<!-- more -->
 
 两中方式可供选择
 ### 1.将新字体安装在JDK中
