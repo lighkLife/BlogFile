@@ -11,7 +11,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://lighklife.github.io
+url: https://lighklife.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -79,12 +79,10 @@ search:
 
 avatar: /images/avatar.jpg
 
-duoshuo_shortname: lighk
 
 google_analytics: UA-92344145-1
 baidu_analytics: e6d85b65595bd4bec35070a1a5883497
 
-duoshuo_share: true
 
 # 自动生成sitemap
 sitemap:
@@ -96,5 +94,5 @@ baidusitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:lighklife/lighklife.github.io.git
+  repository: git@github.com:lighkLife/lighkLife.github.io.git
   branch: master
