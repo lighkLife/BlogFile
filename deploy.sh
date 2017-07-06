@@ -1,7 +1,7 @@
  #!/bin/bash
 msg= 
-if [ ! -n "$1"]; then
-    echo "-"
+if [ ! $1 ]; then
+    echo "msg"
 else
     msg= $1
 fi
