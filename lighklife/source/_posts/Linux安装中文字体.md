@@ -1,6 +1,6 @@
 ---
 title: Linux 安装中文字体
-date: 2017-01-03 22:26:03
+date: 2017-07-03 22:26:03
 categories: Linux
 tags: Linux
 ---
