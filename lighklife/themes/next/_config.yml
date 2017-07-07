@@ -45,10 +45,10 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories
-  about: /about
-  archives: /archives
-  tags: /tags
+  categories: /categories/
+  about: /about/
+  archives: /archives/
+  tags: /tags/
   sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -79,8 +79,8 @@ menu_icons:
 
 # Schemes
 scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Mist
+# scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -274,7 +274,7 @@ post_copyright:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: true
+  enabled: false
   image: https://lighklife.github.io/images/avatar.jpg
 
 
