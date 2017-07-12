@@ -25,9 +25,15 @@ git reset --hard origin/master
 
 # 舍弃追踪某个文件
 舍弃追踪 CarDataSpider/utils/DB.py
-`git update-index --assume-unchanged CarDataSpider/utils/DB.py`
+```sh
+git update-index --assume-unchanged CarDataSpider/utils/DB.py
+```
 继续追踪
-`git update-index --no-assume-unchanged CarDataSpider/utils/DB.py`
+```sh
+git update-index --no-assume-unchanged CarDataSpider/utils/DB.py
+```
 
 # 记住用户名和密码
-`git config –global credential.helper store`
+```sh
+git config –global credential.helper store
+```
