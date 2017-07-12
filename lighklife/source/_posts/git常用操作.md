@@ -7,13 +7,13 @@ categories:
 ---
 
 ### 覆盖更新 ###
-```shell
+```bash
 git fetch --all
 git reset --hard origin/master
 ```
 
 ### 舍弃追踪某个文件 ###
-```
+```sh
 # 舍弃追踪 CarDataSpider/utils/DB.py
 git update-index --assume-unchanged CarDataSpider/utils/DB.py
 # 继续追踪
