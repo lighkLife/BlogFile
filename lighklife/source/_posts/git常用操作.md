@@ -6,16 +6,24 @@ categories:
   - git
 ---
 
-### 覆盖更新 ###
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [覆盖更新 ###](#覆盖更新-)
+- [舍弃追踪某个文件 ###](#舍弃追踪某个文件-)
+
+<!-- /TOC -->
+
+<!-- more -->
+
+# 覆盖更新 ###
+
 ```bash
 git fetch --all
 git reset --hard origin/master
 ```
 
-### 舍弃追踪某个文件 ###
-```sh
-# 舍弃追踪 CarDataSpider/utils/DB.py
-git update-index --assume-unchanged CarDataSpider/utils/DB.py
-# 继续追踪
-git update-index --no-assume-unchanged CarDataSpider/utils/DB.py
-```
+# 舍弃追踪某个文件 ###
+舍弃追踪 CarDataSpider/utils/DB.py
+`git update-index --assume-unchanged CarDataSpider/utils/DB.py`
+继续追踪
+`git update-index --no-assume-unchanged CarDataSpider/utils/DB.py`
