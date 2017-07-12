@@ -10,6 +10,7 @@ categories:
 
 - [覆盖更新 ###](#覆盖更新-)
 - [舍弃追踪某个文件 ###](#舍弃追踪某个文件-)
+- [记住用户名和密码](#记住用户名和密码)
 
 <!-- /TOC -->
 
@@ -27,3 +28,6 @@ git reset --hard origin/master
 `git update-index --assume-unchanged CarDataSpider/utils/DB.py`
 继续追踪
 `git update-index --no-assume-unchanged CarDataSpider/utils/DB.py`
+
+# 记住用户名和密码
+`git config –global credential.helper store`
