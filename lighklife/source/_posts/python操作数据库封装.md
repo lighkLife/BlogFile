@@ -20,7 +20,7 @@ tags:
 - [查询](#查询)
 - [修改数据](#修改数据)
 - [添加数据](#添加数据)
-- [删除数据， 暂时不使用删除操作](#删除数据-暂时不使用删除操作)
+- [删除数据](#删除数据)
 
 <!-- /TOC -->
 
@@ -244,7 +244,7 @@ def dict_to_model(a_dict, model):
             logging.error("Execute '%s' error: %s" % (sql, traceback.format_exc()))
             logging.error(e)
 ```
-# 删除数据， 暂时不使用删除操作
+# 删除数据
 ```python
     def delete(self, table, where_model):
         """
