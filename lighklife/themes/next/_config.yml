@@ -153,7 +153,7 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
+  GitHub: https://github.com/lighklife
   Twitter: twitter
   Weibo: weibo
 
@@ -275,7 +275,7 @@ post_copyright:
 #   image: url-of-image   - Images's url
 custom_logo:
   enabled: false
-  image: 
+  image:
 
 
 # Code Highlight theme
