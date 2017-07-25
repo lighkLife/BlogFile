@@ -11,9 +11,9 @@ categories:
 - [覆盖更新](#覆盖更新)
 - [舍弃追踪某个文件](#舍弃追踪某个文件)
 - [记住用户名和密码](#记住用户名和密码)
+- [设置显示提交记录树图别名](#设置显示提交记录树图别名)
 
 <!-- /TOC -->
-
 <!-- more -->
 
 # 覆盖更新
@@ -35,5 +35,10 @@ git update-index --no-assume-unchanged CarDataSpider/utils/DB.py
 
 # 记住用户名和密码
 ```sh
-git config –global credential.helper store
+git config --global credential.helper store
+```
+
+# 设置显示提交记录树图别名
+```sh
+git config --global alias.lg "log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 ```

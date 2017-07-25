@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 msg= 
 if [ ! $1 ]; then
     echo "msg"
