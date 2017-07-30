@@ -1,6 +1,6 @@
 ---
 title: git 常用操作
-date: 2017-07-07T12:26:57.000Z
+date: 2017-07-07 12:26:57
 tags: git
 categories:
   - git

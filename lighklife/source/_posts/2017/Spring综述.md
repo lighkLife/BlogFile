@@ -1,6 +1,6 @@
 ---
 title: Spring 综述
-date: 2017-01-19T00:26:03.000Z
+date: 2017-01-19 00:26:03
 categories: JavaEE
 tags:
   - JavaEE
