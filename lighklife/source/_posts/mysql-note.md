@@ -57,3 +57,4 @@ default-character-set=utf8mb4
 ```sh
 $ sudo /etc/init.d/mysql restart
 ```
+3. 修改对应的数据库，表，字段
