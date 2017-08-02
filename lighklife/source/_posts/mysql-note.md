@@ -41,7 +41,12 @@ categories:
 # 支持表情
 1. my.cnf 添加以下内容
 ```
-[mysqld]
+[mysqld]<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [允许远程访问](#允许远程访问)
+- [支持表情](#支持表情)
+
+<!-- /TOC -->
 character-set-server = utf8mb4
 collation-server = utf8mb4_general_ci
 init_connect='SET NAMES utf8mb4'
