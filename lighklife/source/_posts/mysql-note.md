@@ -1,5 +1,5 @@
 ---
-title: 神经网络
+title: mysql维护笔记
 date: 2017-08-01T12:26:57.000Z
 tags:
   - mysql
