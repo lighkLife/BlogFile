@@ -2,7 +2,8 @@
 ---
 title: 剔除Intellij中Mybatis的Mapper自动注入警告
 date: 2017-07-30 16:58:03
-categories: Spring
+categories:
+  - Spring
 tags:
 	- Spring
 	- IDEA
@@ -11,7 +12,7 @@ tags:
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [起源](#起源)
-- [@Controller`,`@Service`,`@Repository`,`@Component`区别](#controllerservicerepositorycomponent区别)
+- [区别`@Controller`,`@Service`,`@Repository`,`@Component`](#区别controllerservicerepositorycomponent)
 - [为什么建议构造器注入](#为什么建议构造器注入)
 	- [Field injection:](#field-injection)
 	- [Constructor injection:](#constructor-injection)
@@ -43,7 +44,7 @@ public UserServiceImpl(UserMapper userMapper) {
 自动注入 bean， spring帮助我们完成了，但是同时Spring提供了一些注解来显式的注明bean之间的引用关系，其中最为熟知的自然是`@Controller`,`@Service`,`@Repository`,`@Component`等。
 这里其实给`UserMapper`接口加上`@Repository`,`@Component`就可以解决，那么他们之间有什么区别？
 
-# `@Controller`,`@Service`,`@Repository`,`@Component`区别
+# 区别`@Controller`,`@Service`,`@Repository`,`@Component`
 
 在[Stackoverfolw](https://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)找到了同样的问题,得票最高的给出了一个表
 
