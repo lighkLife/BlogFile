@@ -143,6 +143,7 @@ font:
 social:
   #LinkLabel: Link
   GitHub: https://github.com/lighklife
+  豆瓣: https://www.douban.com/people/43339951/
 # Social Links Icons
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -155,6 +156,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  豆瓣: douban
 
 
 # Sidebar Avatar
