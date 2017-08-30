@@ -1,5 +1,5 @@
 ---
-title: note
+title: Lean-How-to-Learn(week-1-what‘s-learning)
 date: 2017-08-30 10:26:57
 tags:
   - note
@@ -8,6 +8,24 @@ tags:
 categories:
   - 朝花夕拾
 ---
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Focus & Diffuse](#focus-diffuse)
+- [what‘s learning](#whats-learning)
+- [拖延症简介](#拖延症简介)
+	- [拖延症产生](#拖延症产生)
+	- [番茄工作法解决拖延症](#番茄工作法解决拖延症)
+- [Practive makes Permanent](#practive-makes-permanent)
+- [记忆概述](#记忆概述)
+	- [Working memory](#working-memory)
+	- [Long term memory](#long-term-memory)
+	- [Work memory to long term memory](#work-memory-to-long-term-memory)
+- [The importance of Sleep in learning](#the-importance-of-sleep-in-learning)
+
+<!-- /TOC -->
+
+<!-- more -->
 
 # Focus & Diffuse
 

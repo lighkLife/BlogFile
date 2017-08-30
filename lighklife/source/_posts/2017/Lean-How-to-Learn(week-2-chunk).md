@@ -8,3 +8,23 @@ tags:
 categories:
   - 朝花夕拾
 ---
+
+
+
+# What is a Chunk?
+
+# How to Form a Chunk
+
+# Whst Motivates You?
+
+# The Value of a Library of Chunk
+
+# Other learning phenomenon
+
+## Overlearning
+
+## Choking
+
+## Einstellung
+
+## Interleaving
