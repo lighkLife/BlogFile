@@ -34,7 +34,7 @@ categories:
 要开启一个新的思维模式，你需要一个不同的思路，你需要发散模式。发散模式可以使你以一种全新的全景视角
 概括的看待问题，不再像以前一样专注某个具体的局部。
 
-![Focus & Diffuse](http://oqbaa7a72.bkt.clouddn.com/2017/Screenshot%20from%202017-08-30%2010-08-03.png)
+![Focus & Diffuse](http://lighklife.github.io/img/2017/Screenshot%20from%202017-08-30%2010-08-03.png)
 
 1. 专注和发散像一枚硬币的正反面，不能同事存在。
 2. 在学习和解决问题中使用两种模式来回跳转，发散模式可以产生新的思路，然后再使用专注模式具体实践。
@@ -43,20 +43,20 @@ categories:
 # what‘s learning
 产生新的突触
 
-![Learning](http://oqbaa7a72.bkt.clouddn.com/2017/Screenshot%20from%202017-08-30%2010-29-16.png)
+![Learning](http://lighklife.github.io/img/2017/Screenshot%20from%202017-08-30%2010-29-16.png)
 
 # 拖延症简介
 
 ## 拖延症产生
-![拖延症](http://oqbaa7a72.bkt.clouddn.com/2017/Screenshot%20from%202017-08-30%2010-32-00.png)
+![拖延症](http://lighklife.github.io/img/2017/Screenshot%20from%202017-08-30%2010-32-00.png)
 
 当你看到一件你极度不情愿做的事情时 就好像是你激活了大脑中与疼痛相关的区域 你的大脑就会自然而然地去寻找停止这种负面刺激的方式 而这一方式便是将你的注意力转移到其他事情上 **不过 我们也有应对之法 研究人员发现 当人们真正开始去做他们不喜欢的事情后 这种神经上的不适很快就会消失** 看起来 你拖延的过程大概是这样的 首先 你留意到某件事且得到暗示说 这件事可能会让你产生轻微的不安 你不喜欢这种不适 因此为了消除这种感觉 你会让自己不再去关注这件让你不安的事
 
 ## 番茄工作法解决拖延症
-![番茄工作法](http://oqbaa7a72.bkt.clouddn.com/2017/Screenshot%20from%202017-08-30%2010-47-01.png)
+![番茄工作法](http://lighklife.github.io/img/2017/Screenshot%20from%202017-08-30%2010-47-01.png)
 
 # Practive makes Permanent
-![练习使得记忆牢固](http://oqbaa7a72.bkt.clouddn.com/2017/Screenshot%20from%202017-08-30%2010-48-13.png)
+![练习使得记忆牢固](http://lighklife.github.io/img/2017/Screenshot%20from%202017-08-30%2010-48-13.png)
 
 # 记忆概述
 ## Working memory
@@ -64,11 +64,11 @@ categories:
 ## Long term memory
 长期记忆像一个巨大的存储仓库，短期记忆间隔性的练习可以转换为长期记忆。
 ## Work memory to long term memory
-![间隔性练习](http://oqbaa7a72.bkt.clouddn.com/2017/Screenshot%20from%202017-08-30%2010-58-41.png)
+![间隔性练习](http://lighklife.github.io/img/2017/Screenshot%20from%202017-08-30%2010-58-41.png)
 
 **间隔性的练习复习要比短时间内重复更容易将短期记忆转换为长期记忆。**
 # The importance of Sleep in learning
-![睡眠冲走毒素](http://oqbaa7a72.bkt.clouddn.com/2017/Screenshot%20from%202017-08-30%2010-54-50.png)
+![睡眠冲走毒素](http://lighklife.github.io/img/2017/Screenshot%20from%202017-08-30%2010-54-50.png)
 
 你在睡觉的时候 你的大脑会将你学习和思考过的想法和概念进行整理 它会清除掉一些记忆中不太重要的部分 同时增强你需要或想要记住的区域的记忆 在睡梦中 你的大脑也会 将你所努力学习到的东西 在神经中枢一遍遍排演以增强加深记忆力
 

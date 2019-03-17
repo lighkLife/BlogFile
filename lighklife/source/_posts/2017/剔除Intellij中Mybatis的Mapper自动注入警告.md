@@ -23,7 +23,7 @@ tags:
 
 # 起源
 idea 自动注入Mapper有警告，而且又红色错误提醒（编译可以通过）
-![idea 自动注入Mapper报红色警告](http://oqbaa7a72.bkt.clouddn.com/2017/mapper%E6%8A%A5%E9%94%99.png)
+![idea 自动注入Mapper报红色警告](http://lighklife.github.io/img/2017/mapper%E6%8A%A5%E9%94%99.png)
 这很烦，不是吗？ 我受够了，得想点办法。
 
 idea会提示
