@@ -2,7 +2,7 @@
 title: Of Studies
 date: 2016-08-17 00:26:03
 categories: 文海珠玑
-tags: [文学,美文]
+tags: [文学,文海珠玑]
 ---
 
 ## Of Studies ##

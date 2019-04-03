@@ -1,8 +1,8 @@
 ---
-title: 《Youth》(Samuel Ullman)
+title: Youth(Samuel Ullman)
 date: 2016-08-17 00:26:03
 categories: 文海珠玑
-tags: [文学,美文]
+tags: [文学,文海珠玑]
 ---
 
 &#12288;&#12288;Youth is not a time a of life;it is a state of mind;it is not a matter of rosy cheeks,red lips and supple knees; it is a matter of the will, a quality of the imagination, a vigor of the emotions; it is the freshness of the deep springs of life.

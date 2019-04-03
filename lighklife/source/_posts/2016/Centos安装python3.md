@@ -2,7 +2,7 @@
 title: Centos安装python3
 date: 2016-12-17 18:26:03
 categories: Python
-tags: [Python, Programming Language]
+tags: [Python]
 ---
 
 #### 1. 首先安装一些python需要的库
