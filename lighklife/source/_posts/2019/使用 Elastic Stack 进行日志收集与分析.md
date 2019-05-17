@@ -71,6 +71,40 @@ tar xzvf filebeat-7.0.1-linux-x86_64.tar.gz
 
 ### filebeat 配置
 
+```yaml
+# filebeat 的输入， 每一个 - type 可以定义一个输入类型
+filebeat.input:
+- type: log
+  enabled: true
+  paths:
+    - /your-log-path
+
+# 可以自己定义标签，与日志增量内容一起推送到输出
+tags: ["serviceName", "tag2"]
+
+# 自定义字段，与日志增量内容一起推送到输出
+fields:
+  ip: 192.168.0.15
+
+# 处理器配置，可以处理加工beat搜集到的数据
+processors:
+  # 打开之后会将搜集到的系统信息与日志的增量内容一起发送到output
+  #- add_host_metadata: ~
+  #- netinfo.enabled: true
+  
+  # 删除一些不需要的字段，可以大大减小数据量
+  - drop_fields:
+      fields: ["agent", "input", "logs", "ecs"]
+
+# 输出日志增量内容到redis， 这里使用redis作为消息队列
+output.redis:
+  # redis 服务器IP
+  hosts: ["192.168.0.15:7007"]
+  # 消息队列的在redis中的key
+  key: "redis-elk-key"
+  password: "redis-password"
+```
+
 ### filebeat使用
 
 #### 启动与关闭
@@ -133,7 +167,72 @@ Logstash 是开源的服务器端数据处理管道，能够：
 
 尽管 Elasticsearch 是我们的首选输出方向，能够为我们的搜索和分析带来无限可能，但它并非唯一选择。Logstash 提供[众多输出选择](https://www.elastic.co/guide/en/logstash/current/output-plugins.html)，您可以将数据发送到您要指定的地方，并且能够灵活地解锁众多下游用例。
 
-### Logstash 安装
+### Logstash 配置
 
+```gork
+input {
+    redis {
+    	host => "192.168.0.15"
+    	port => "7007"
+    	password => "redis-password"
+    	key => "redis-elk-key"
+    	data_type => "list"
+    	thread => 5
+    }
+}
 
+filter {
+	grok {
+		patterns_dir => "your-patterns-dir"
+		match => {
+			"message" => "%{pattern-name}"
+		}
+		remove_field => ["@version", "message"]
+	}
+}
+
+output {
+	elasticsearch {
+		index => "index-in-elasticsearch-%{+YYYY.MM.dd}"
+		hosts => ["192.168.0.10","192.168.0.11", "192.168.0.12"]
+	}
+}
+```
+
+如果有多个数据来源，可以使用 tag 来标识，使用 grok 进行过滤的时候再判断，依据不同的tag 做不同的处理，如下所巨之例：
+
+```
+input {
+	beats {
+		...
+		tags = ["app_1"]
+	}
+	
+	redis {
+		...
+		tags = ["app_2"]
+	}
+}
+
+filter {
+	if "app_1" in [tags] {
+		...
+	}
+	
+	if "app_2" in [tags] {
+		...
+	}
+}
+```
+
+再部署调试阶段，如需要将接收到的内容实时的输出到控制台，只需要在 `output` 中加标准输出，具体如下：
+
+```
+output {
+	stdout {
+		codec => rubydebug{
+		}
+	}
+}
+```
 
